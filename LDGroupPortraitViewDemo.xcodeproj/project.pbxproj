@@ -13,6 +13,7 @@
 		010706AD1AE698CC00B602C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010706AC1AE698CC00B602C5 /* Images.xcassets */; };
 		010706B01AE698CC00B602C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010706AE1AE698CC00B602C5 /* LaunchScreen.xib */; };
 		010706BC1AE698CC00B602C5 /* LDGroupPortraitViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010706BB1AE698CC00B602C5 /* LDGroupPortraitViewDemoTests.swift */; };
+		010706C71AE698F700B602C5 /* LDGroupPortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010706C61AE698F700B602C5 /* LDGroupPortraitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		010706B51AE698CC00B602C5 /* LDGroupPortraitViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDGroupPortraitViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		010706BA1AE698CC00B602C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		010706BB1AE698CC00B602C5 /* LDGroupPortraitViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDGroupPortraitViewDemoTests.swift; sourceTree = "<group>"; };
+		010706C61AE698F700B602C5 /* LDGroupPortraitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDGroupPortraitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		010706971AE698CC00B602C5 = {
 			isa = PBXGroup;
 			children = (
+				010706C51AE698F700B602C5 /* LDGroupPortraitView */,
 				010706A21AE698CC00B602C5 /* LDGroupPortraitViewDemo */,
 				010706B81AE698CC00B602C5 /* LDGroupPortraitViewDemoTests */,
 				010706A11AE698CC00B602C5 /* Products */,
@@ -110,6 +113,14 @@
 				010706BA1AE698CC00B602C5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		010706C51AE698F700B602C5 /* LDGroupPortraitView */ = {
+			isa = PBXGroup;
+			children = (
+				010706C61AE698F700B602C5 /* LDGroupPortraitView.swift */,
+			);
+			path = LDGroupPortraitView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010706C71AE698F700B602C5 /* LDGroupPortraitView.swift in Sources */,
 				010706A81AE698CC00B602C5 /* ViewController.swift in Sources */,
 				010706A61AE698CC00B602C5 /* AppDelegate.swift in Sources */,
 			);
